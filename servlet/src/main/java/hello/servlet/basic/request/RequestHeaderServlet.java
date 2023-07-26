@@ -10,6 +10,10 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Enumeration;
 
+/*
+    1. 파라미터 전송 기능
+    [Request_Header]http://localhost:8080/request-header
+*/
 @WebServlet(name = "requestHeaderServlet", urlPatterns = "/request-header")
 public class RequestHeaderServlet extends HttpServlet {
 
@@ -17,7 +21,7 @@ public class RequestHeaderServlet extends HttpServlet {
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 //      printStartLine(request);  // Request 정보 조회
 //      printHeader(request);     // Header 정보 조회
-//        printHeaderUtil(request); // 편의 정보 조회
+//      printHeaderUtil(request); // 편의 정보 조회
         printEtc(request);  // 기타 정보 조회
     }
 
