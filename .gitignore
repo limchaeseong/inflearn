@@ -1,0 +1,11 @@
+servlet/.gitignore
+servlet/build.gradle
+servlet/gradlew
+servlet/gradle/wrapper/gradle-wrapper.jar
+servlet/gradle/wrapper/gradle-wrapper.properties
+springmvc/.gitignore
+springmvc/build.gradle
+springmvc/gradlew
+springmvc/gradlew.bat
+springmvc/gradle/wrapper/gradle-wrapper.jar
+springmvc/gradle/wrapper/gradle-wrapper.properties
