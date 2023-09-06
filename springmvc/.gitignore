@@ -1,12 +1,7 @@
 HELP.md
 .gradle
-**/build/
-!**/settings.gradle
-!**/build.gradle
-!**/gradlew
-!**/gradlew.bat
-!**/gradle/wrapper/gradle-wrapper.jar
-!**/gradle/wrapper/gradle-wrapper.properties
+build/
+!gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
@@ -18,12 +13,12 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
-**/bin/
+bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-*.idea
+.idea
 *.iws
 *.iml
 *.ipr
